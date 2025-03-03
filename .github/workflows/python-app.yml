@@ -48,7 +48,7 @@ jobs:
 
       - run: python -m unittest discover -s tests  # Run unittest after pytest
 
-      - run: python script.py
+      - run: python pythonapp.py
 
       - run: echo "Test execution and script run completed successfully!"
 
